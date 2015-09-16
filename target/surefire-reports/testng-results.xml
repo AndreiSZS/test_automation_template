@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="33" started-at="2015-09-16T19:05:02Z" finished-at="2015-09-16T19:05:02Z">
+    <groups>
+      <group name="Name_Android_Name1">
+        <method signature="TestSet1.testMethod1()[pri:0, instance:tests.android.TestSet1@548b7f67]" name="testMethod1" class="tests.android.TestSet1"/>
+      </group> <!-- Name_Android_Name1 -->
+      <group name="Android_UI">
+        <method signature="TestSet1.testMethod1()[pri:0, instance:tests.android.TestSet1@548b7f67]" name="testMethod1" class="tests.android.TestSet1"/>
+      </group> <!-- Android_UI -->
+    </groups>
+    <test name="Command line test" duration-ms="33" started-at="2015-09-16T19:05:02Z" finished-at="2015-09-16T19:05:02Z">
+      <class name="tests.android.TestSet1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.android.TestSet1@548b7f67]" name="beforeClass" is-config="true" duration-ms="13" started-at="2015-09-16T12:05:02Z" finished-at="2015-09-16T12:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:tests.android.TestSet1@548b7f67]" name="testMethod1" duration-ms="1" started-at="2015-09-16T12:05:02Z" finished-at="2015-09-16T12:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.android.TestSet1@548b7f67]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-09-16T12:05:02Z" finished-at="2015-09-16T12:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.android.TestSet1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
