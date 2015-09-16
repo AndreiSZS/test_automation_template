@@ -1,7 +1,6 @@
 language: java
-jdk:
-  - oraclejdk8
-script: 
+script:
+- echo $TRAVIS_OS_NAME
 - mvn clean
 - mvn compiler:testCompile
 - mvn surefire:test -Dgroups=IOS_UI
