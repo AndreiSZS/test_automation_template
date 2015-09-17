@@ -4,4 +4,4 @@ script:
 - mvn clean
 - mvn compiler:testCompile
 - mvn surefire:test -Dgroups=IOS_UI
-- gem --help
+- gem install travis
